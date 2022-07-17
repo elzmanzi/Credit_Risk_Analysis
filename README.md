@@ -13,30 +13,29 @@ we will train our models using credit card dataset from LendingClub, the models 
     the model scores with the balanced Accuracy score of 62.49%, there is a decline in the performance comparing to innital traing and testing scores
     it maybe due to oversampling the model.
 
-![Balanced_accuracy_score]()
+![Balanced_accuracy_score](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Balanced_accuracy_score_RandomOverS.PNG)
 
 - Confusion Matrix: 
     as shown below there is an  significant increase in false Positive(FP) number, there is more accuracy in predicting low credit risk. 
 
-![Confusion_Matrix]()
+![Confusion_Matrix](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Confusion_Matrix_RandomOverS.PNG)
 
 - Imbalanced Classification Report
     the average total of predicting low credit risk is 65% as shown below, and 60% for high risk
-![Imbalanced_Classification_Report]()
+
+![Imbalanced_Classification_Report](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Imbalanced_Classification_Report_RandomOverS.PNG)
 
 ### SMOTE
 - Balanced accuracy score is 65.12%, there is an improvement of accuracy comparing to our model of RandomOverSampling.
 
-![Balanced_accuracy_score]()
-
 - Confusion Matrix : as shown below the prediction of low credit risk is high and for high credisk risk is very low
 
-![Confusion_Matrix]()
+![Confusion_Matrix](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Confusion_Matrix_SMOTE.PNG)
 
 - Imbalanced Classification Report : the classification report is showing an improvement for average total prediction of low risk to 66% while for high credit 
 risk is 64%
 
-![Imbalanced_Classification_Report]()
+![Imbalanced_Classification_Report](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Imbalanced_Classification_Report_SMOTE.PNG)
 
 ### ClusterCentroids
 
@@ -44,11 +43,11 @@ risk is 64%
 
 - Confusion Matrix 
 
-![Confusion_Matrix]()
+![Confusion_Matrix](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Confusion_Matrix_ClusterCentroids.PNG)
 
 - Imbalanced Classification Report
 
-![Imbalanced_Classification_Report]()
+![Imbalanced_Classification_Report](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Imbalanced_Classification_Report_ClusterCentroids.PNG)
 
 ### SMOTEENN
 
@@ -56,11 +55,11 @@ risk is 64%
 
 - Confusion Matrix
 
-![Confusion_Matrix]()
+![Confusion_Matrix](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Confusion_Matrix_SMOTEENN.PNG)
 
 - Imbalanced Classification Report : the combination method of SMOTEEN has improved high credit recall up to 69% while the low credit risk is 54%
 
-![Imbalanced_Classification_Report]()
+![Imbalanced_Classification_Report](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Imbalanced_Classification_Report_SMOTEENN.PNG)
 
 ### Balanced Random Forest Classifier 
 - Balanced accuracy score
