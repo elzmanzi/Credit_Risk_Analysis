@@ -66,11 +66,11 @@ risk is 64%
 
 - Confusion Matrix
 
-![Confusion_Matrix]()
+![Confusion_Matrix](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Confusion_Matrix_BalancedRandomClassifier.PNG)
 
 - Imbalanced Classification Report
 
-![Imbalanced_Classification_Report]()
+![Imbalanced_Classification_Report](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Imbalanced_Classification_Report_BalancedRandomClassifier.PNG)
 
 ### Easy Ensemble Classifier 
 
@@ -78,11 +78,11 @@ risk is 64%
 
 - Confusion Matrix
 
-![Confusion_Matrix]()
+![Confusion_Matrix](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Confusion_Matrix_EasyEnsembleClassifier.PNG)
 
 - Imbalanced Classification Report
 
-![Imbalanced_Classification_Report]()
+![Imbalanced_Classification_Report](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Imbalanced_Classification_Report_EasyEnsembleClassifier.PNG)
 
 ## Summary: 
 By seeing the result ahead we can conclude that the best suitable models are BalancedRandomClassifier and EasyEnsembleClassifier. But EasyEnsembleClassifier is the best suited for our analysis among the rest.
