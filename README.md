@@ -62,7 +62,7 @@ risk is 64%
 ![Imbalanced_Classification_Report](https://github.com/elzmanzi/Credit_Risk_Analysis/blob/main/Resource/Imbalanced_Classification_Report_SMOTEENN.PNG)
 
 ### Balanced Random Forest Classifier 
-- Balanced accuracy score
+- Balanced accuracy score using BalancedRandomClassifier is almost 79%
 
 - Confusion Matrix
 
@@ -74,7 +74,7 @@ risk is 64%
 
 ### Easy Ensemble Classifier 
 
-- Balanced accuracy score
+- Balanced accuracy score using easy ensemble classifier is 93% which is more that 13% from Balanced Random classifier
 
 - Confusion Matrix
 
@@ -85,4 +85,4 @@ risk is 64%
 ![Imbalanced_Classification_Report]()
 
 ## Summary: 
-By seeing the result ahead we can conclude that the best suitable models are BalancedRandomClassifier and EasyEnsembleClassifier.
+By seeing the result ahead we can conclude that the best suitable models are BalancedRandomClassifier and EasyEnsembleClassifier. But EasyEnsembleClassifier is the best suited for our analysis among the rest.
